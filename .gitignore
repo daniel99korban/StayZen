@@ -1,0 +1,75 @@
+# Ignore arquivos de build
+/target/
+/out/
+/bin/
+/build/
+
+# Arquivos do Maven e Gradle
+.mvn/
+.gradle/
+!gradle-wrapper.jar
+
+# Dependências baixadas
+**/lib/
+**/vendor/
+
+# Configurações do IDE (IntelliJ, Eclipse, VSCode, NetBeans)
+.idea/
+*.iml
+*.ipr
+*.iws
+/.classpath
+/.project
+/.settings/
+
+# Arquivos de cache e logs
+*.log
+/logs/
+*.cache
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Arquivos de persistência e credenciais
+*.db
+*.sqlite
+*.der
+*.pfx
+*.pem
+*.crt
+*.key
+
+# Arquivos do JSF
+/.faces-config.xml
+/.web.xml
+
+# Configurações do JPA/Hibernate
+*.h2.db
+*.mv.db
+*.lck
+
+# Configurações do EJB
+*.ejb-jar.xml
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.old
+
+# Ignorar arquivos JSP compilados
+*.jsp-generated/
+
+# Configuração específica de ambiente
+.env
+*.properties
+*.yml
+
+# Configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Evitar que credenciais e configurações sensíveis sejam enviadas
+secrets.env
+config/*.local.json
+config/*.local.yml
